@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	
+	font-family: lato;
+}
+
+img{
+	position: absolute;
+	top: 15%;
+	left: 1%;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+h1{
+	padding: 50px 0 0 0;
+	font-size: 50px;
+}
+
+table{
+	width: 80%;
+	margin: 100px 10px 0px 250px;
+	border-collapse: collapse;
+	
+	
+}
+th{
+	width: 150px;
+	height: 50px;
+	background-color:#040833;
+	font-style: normal;
+	color: white;
+	font-size: 16px;
+
+}
+tr, td{
+	width: 150px;
+	height: 50px;
+	margin: 2px;
+	text-align: center;
+}
+
+ .layer {
+	background-color: lightgray;
+
+}
+
+form{
+	width: 100%;
+	padding-top: 100px;
+	
+}
+
+label{
+	font-size: 35px;
+}
+
+input{
+	width: 150px;
+	height: 40px;
+	padding: 10px 50px;
+	font-size: 40px;
+	margin-left: 200px;
+	border-radius: 5px;
+	border: solid 1px #040833;
+	
+}
+
+#btn{
+	text-align: center;
+	padding: 0;
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	width: 350px;
+	height: 70px;
+	background-color: #0C0C6600;
+	border: solid #040833; 
+	border-radius: 50px;
+	color: #040833;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background-color: #040833;
+	border: solid #040833; 
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}

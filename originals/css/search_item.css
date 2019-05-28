@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	
+	font-family: lato;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+}
+
+form{
+	width: 95%;
+	height: 95%;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	
+}
+
+input{
+	width: 300px;
+	height: 50px;
+	padding: 0 20px;
+}
+
+.search{
+	position: absolute;
+	left: 20%;
+}
+
+#srch{
+	width: 500px;
+	border-radius: 10px;
+	border: solid #040833;
+}
+
+#btn{
+	width: 150px;
+	background-color: white;
+	cursor: pointer;
+	margin-left: 50px;
+	border: solid #040833;
+	border-radius: 5px;
+}
+
+#btn:hover{
+	background-color:#040833;
+	color: white;
+	border: solid #040833;
+}
+
+table{
+	width: 100%;
+	margin: 150px 0 10px 0;
+	border-collapse: collapse;
+	
+	
+}
+th{
+	width: 150px;
+	height: 50px;
+	background-color:#040833;
+	font-style: normal;
+	color: white;
+	font-size: 16px;
+
+}
+tr, td{
+	width: 150px;
+	height: 50px;
+	margin: 2px;
+	text-align: center;
+}
+
+ .layer {
+	background-color: lightgray;
+
+}
+
+input[name="check"]{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color:#040833;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[name="check"]:hover{
+	background-color:#646464;
+}
+
+input[name="delete"]{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background-color:#FF0000;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[name="delete"]:hover{
+	background-color:#646464;
+}
+
+#date{
+	width: 300px;
+	height: 35px;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-left: 100px;
+
+}
+
+
+

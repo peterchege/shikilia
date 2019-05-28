@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/../images/customerlayer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: lato;
+}
+
+.container{
+	width: 40%;
+	height: 100vh;
+	background-color:#040833;
+	position: absolute;
+	left: 30%;
+	
+}
+
+form{
+	width: 100%;
+	padding: 0px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	padding: 50px 0;
+	
+}
+
+input{
+	
+	width: 400px;
+	height: 40px;
+	margin: 10px 90px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#fingure{
+	width: 150px;
+	height: 70px;
+	margin: 30px 30%;
+	border-radius: 10px;
+	background-color: #0C0C6600;
+	font-size: 14px;
+}
+
+#user{
+	position: absolute;
+	top: 17%;
+	
+}
+
+#user1{
+	position: absolute;
+	top: 28%;
+	
+}
+
+#phone{
+	position: absolute;
+	top: 39%;
+	
+}
+
+#idno{
+	position: absolute;
+	top: 53%;
+	
+}
+
+#pass{
+	position: absolute;
+	top: 66%;
+	left: 46%;
+	
+}
+
+#btn{
+	text-align: center;
+	padding: 0;
+	margin: 20px 22%;
+	width: 300px;
+	height: 60px;
+	background-color: #0C0C6600;
+	border: solid white; 
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background-color: #1B19B7;
+	border: solid #1B19B7; 
+}
+
+a{
+	text-decoration: none;
+}
+

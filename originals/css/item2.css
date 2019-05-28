@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	font-family: lato;
+}
+
+form{
+	width: 100%;
+	background-color:#040833;
+	padding-top: 30px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	padding-bottom: 50px;
+	
+}
+
+select{
+	width: 350px;
+	height: 60px;
+	margin: 0px 30px 50px 30px;
+	padding: 10px 10px 10px 10px;
+	font-size: 15px;
+	
+
+}
+
+input{
+	width: 325px;
+	height: 40px;
+	margin: 30px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+img{
+	position: absolute;
+	right: 1%;
+	bottom: 0%;
+}
+
+#btn{
+	text-align: center;
+	padding: 0;
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	width: 350px;
+	height: 60px;
+	background-color: #0C0C6600;
+	border: solid #040833; 
+	border-radius: 50px;
+	color: #040833;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background-color: #040833;
+	border: solid #040833; 
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+

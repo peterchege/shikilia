@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 95%;
+	height: 100vh;
+	background-image: url(../images/background1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.background{
+	width: 520px;
+	height: 500px;
+	background-color:#040833;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	border-radius: 50px;
+}
+
+.background img{
+	position: absolute;
+	top: 2%;
+	left: 23%;
+}
+
+form{
+	color: #0C0C66;
+	padding: 200px 0 0 90px;
+	font-family: lato;
+	font-weight: 300;
+
+}
+
+input{
+	width: 330px;
+	height: 40px;
+	margin: 5px 0 10px 0;
+	padding: 10px 10px 10px 30px;
+	color: #0C0C66;
+}
+
+#user{
+	position: absolute;
+	top: 35%;
+	left: 15px;
+}
+
+#pass{
+	position: absolute;
+	top: 46%;
+	left: 15px;
+}
+
+#btn{
+	text-align: center;
+	padding: 0;
+	margin: 50px 0px 0 15px;
+	width: 300px;
+	height: 60px;
+	background-color: #0C0C6600;
+	border: solid white; 
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background-color: #1B19B7;
+	border: solid #1B19B7; 
+}
+
+a{
+	text-decoration: none;
+}
+
+#symbol{
+	position: absolute;
+	bottom: 1%;
+	left: 30%;
+}

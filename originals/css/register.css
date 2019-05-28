@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/background1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container{
+	width: 50%;
+	height: 100vh;
+	background-image: url(../images/layer2.png);
+	background-size: cover;
+	color: white;
+	font: lato;
+	text-align: center;
+}
+
+h1{
+	padding: 80px 0 0 0; 
+	font-size: 30px;
+	font-weight: bold;
+}
+
+form{
+	color: #0C0C66;
+	padding: 80px 0 0px;
+	font-family: lato;
+	font-weight: 300;
+	
+
+}
+
+input{
+	width: 400px;
+	height: 50px;
+	margin: 10px 0;
+	padding: 10px 5px 10px 30px;
+	color: #0C0C66;
+	font-size: 14px;
+}
+
+input:hover{
+	border: 2px solid grey;
+}
+
+#user{
+	position: absolute;
+	top: 27%;
+	left: 30%;
+}
+
+#phone{
+	position: absolute;
+	top: 36%;
+	left: 30%;
+}
+
+#idno{
+	position: absolute;
+	top: 45%;
+	left: 30%;
+}
+
+#pass{
+	position: absolute;
+	top: 54%;
+	left: 30%;
+}
+
+#btn{
+	text-align: center;
+	padding: 0;
+	margin: 50px 0px 0 -5px;
+	width: 350px;
+	height: 60px;
+	background-color: #0C0C6600;
+	border: solid white; 
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background-color: #1B19B7;
+	border: solid #1B19B7; 
+}
+
+a{
+	text-decoration: none;
+}

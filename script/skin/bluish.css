@@ -1,0 +1,128 @@
+ .pdocrud-table-container .page-title{
+	/* background color of div containing the table name */
+    background: #000;
+	/*  color used for the table name */
+    color: #FFFFFF;
+}
+.pdocrud-table-container .pdocrud-table-heading h3 {
+    float: left;
+    font-size: 23px;
+    margin: 0;
+	padding: 10px 0;
+}
+.pdocrud-table-container a{
+	/*color used on footer buttons (print,excel,pdf,csv)*/
+    color:#040833;
+}
+
+.pdocrud-table-container a:hover{
+	 background: #040833 !important;
+	color: #FFFFFF !important;
+}
+/*  color used in the add button(adding a new item) */
+.pdocrud-button-add{
+    background: #040833 !important;
+	color: #FFFFFF !important;
+}
+.pdocrud-button-delete-all{
+    background: #FF0000 !important;
+	color: #FFFFFF !important;
+}
+.pdocrud-table th{
+	/* color used in column header names */
+	 background: #040833 !important;
+    color: #FFFFFF;
+	
+}
+.pdocrud-table{
+    background: #7A7A7A;
+	/*color used in the fields name (data entered)*/
+    color: #fff;
+}
+
+.pdocrud-table tr:hover{
+    color: #000;
+    cursor: pointer;
+}
+.pdocrud-table tr:nth-child(odd),.pdocrud-table tr:nth-child(even){
+    background:#34495e !important;
+}
+
+.pdocrud-table i{
+	/*color used in the action buttons */
+    color: #000;
+}
+
+ .control-label{
+     color: #FFFFFF;
+ }
+
+center{
+     color: #FFFFFF;
+}
+
+
+.pdocrud-export-options ul li a{
+     background: #040833;
+     color: #FFFFFF;
+}
+.pdo-search-cols a,.pdocrud-button-delete-all{
+	/* color used at the go button and delete button at the top most part of the form */
+    background: #318085;
+	/* color used at the word go in the go button and the cancel icon in delete button at the top most part of the form*/
+    color: #FFFFFF !important;
+}
+.pdocrud-pagination .pagination>li>a{
+	/* color used for pagnation numbers */
+    color:#000;
+    cursor: pointer;
+}
+.pdocrud-pagination .pagination>.active>a{
+	/* color used for pagnation button */
+    background-color: #34495e;
+	/* color used at button margin of pagnation */
+    border-color: #34495e;
+	/* color used to show current page of pagnation */
+    color: #FFFFFF;
+}
+.panel-body{
+	/* background color of the datatable 
+	(the table color just  below  the div containing the table name and excluding the table contents)*/
+    background-color: #FFFFFF;
+}
+.pdocrud-top-buttons p{
+	/* color used in the word "showing section 1 of 70 of 400 bla bla bla " */
+    color: #000;
+}
+.pdocrud-button-view{
+    margin-right: 7px;
+}
+.pdocrud-button-edit{
+    margin-right: 7px;
+}
+.pdocrud-button-delete{
+    margin-right: 7px;
+}
+.table>thead:first-child>tr:first-child>th{
+    border-top: 0;
+    padding: 15px 10px;
+/* color used at header for boarder margins at the colums */	
+    border-right: 1px solid #d5d5d5;
+}
+.pdocrud-table-container .table tbody tr td {
+	/* color used for boarder margins at the column contents (just below the column headers) */
+    border-right: 1px solid #d5d5d5;
+    white-space: nowrap;
+    padding: 10px 10px;  
+}
+.pdocrud-table-container table tr.pdocrud-header-row th{
+    padding: 10px 10px;    
+}
+/* color used at the footer for boarder margins */
+.pdocrud-table-container table tr.pdocrud-header-row th {
+    border-right: 1px solid #d5d5d5;
+}
+.pdocrud-table tr:nth-child(odd), .pdocrud-table tr:nth-child(even) {
+	/* color used at the table (background color of the table contents only) */
+    background: #318085 !important;
+}

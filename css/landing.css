@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../img/landpage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: lato;
+}
+
+.background{
+	width: 40%;
+	height: 70vh;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	background-color:#040833;
+	opacity: 0.9;
+	border-radius: 50px;
+}
+
+img{
+	margin: 0px 20%;
+}
+
+.box{
+	width: 200px;
+	height:40px;
+	margin: 50px 0 0 12%;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.0);
+	border: 2px solid rgba(255,255,255,1.00);
+	border-radius: 50px;
+	text-align: center;
+	padding: 30px 0 10px 0;
+	cursor: pointer;
+	text-decoration-line: none;
+}
+
+.box:hover{
+	background-color: white;
+	color: black;
+}
+
+.box1{
+	width: 200px;
+	height:40px;
+	margin: -85px 0 0 55%;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.0);
+	border: 2px solid rgba(255,255,255,1.00);
+	border-radius: 50px;
+	text-align: center;
+	padding: 30px 0 10px 0;
+	cursor: pointer;
+}
+
+.box1:hover{
+	background-color:  red;
+	border: 2px solid red;
+	color: white;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+#wel{
+	text-align: center;
+	color: grey;
+	font-weight: 500;
+	padding-top: 70px;
+	letter-spacing: 0.1em;
+}

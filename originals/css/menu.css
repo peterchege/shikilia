@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../images/head.png);
+	background-size: 100% 400px ;
+	background-repeat: no-repeat;
+}
+
+.container{
+	text-align: center;
+	padding: 70px 0 0 0;
+	color: white;
+	font-family: lato;
+}
+
+.container h1{
+	font-size: 40px;
+}
+
+#dalp{
+	position: absolute;
+	top: 24%;
+	left: 38%;
+}
+
+#book{
+	position: absolute;
+	top: 72%;
+	left: 17%;
+	cursor: pointer;
+}
+
+#book:hover{
+	background-color: lightseagreen;
+	border-radius: 10px;
+}
+
+#check{
+	position: absolute;
+	top: 73%;
+	left: 32%;
+	cursor: pointer;
+}
+
+#check:hover{
+	background-color: lightseagreen;
+	border-radius: 10px;
+}
+
+
+#setting{
+	position: absolute;
+	top: 72%;
+	left: 48%;
+	cursor: pointer;
+}
+
+#setting:hover{
+	background-color: lightseagreen;
+	border-radius: 10px;
+}
+
+#history{
+	position: absolute;
+	top: 72%;
+	left: 63%;
+	cursor: pointer;
+}
+
+#history:hover{
+	background-color: lightseagreen;
+	border-radius: 10px;
+}
+
+
+#log{
+	position: absolute;
+	top: 80%;
+	right: 2%;
+	cursor: pointer;
+}
+
+#log:hover{
+	
+	background-color: darkred;
+	border-radius: 10px;
+}
+
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="../img/capture1.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>logout success</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-post.css" rel="stylesheet">
+	<script src="dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+<link rel="stylesheet" type="text/css" href="dist/animate.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ 
+</head>
+
+<body style="background-image: url(img/shiks.jpg); background-size: cover; background-repeat: no-repeat;">
+     
+     
+<br>
+     
+  <h1 align="center"   class=" animated rollin"> </h1>
+ <p>&nbsp;</p>  
+    </p>
+
+    
+	<script>
+	 
+                   
+ swal({
+                title: 'logout successful ',
+                text: ' pick an option to proceed',
+                type: 'success',
+                showCancelButton: true,
+                confirmButtonColor: '#DD6B55',
+                confirmButtonText: 'LOG-IN ',
+                cancelButtonText: 'Close page & exit ',
+                closeOnConfirm: false,
+                closeOnCancel: false
+            },
+            function(isConfirm) {
+                if (isConfirm) {
+                    window.location = 'http://localhost/shikilia/Originals/admin_login.php';
+                    
+                } else {
+                    window.location = 'index.php';
+                }
+            });
+			 
+	</script>
+     
+ 
+</body>
+
+</html>

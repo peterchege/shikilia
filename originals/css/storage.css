@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #040833;
+	
+}
+
+.container{
+	padding: 50px 0px;
+	color: white;
+	text-align: center;
+	font-family: lato;
+	
+}
+
+.box-container{
+	padding: 50px 100px;
+	font-family: lato;
+	cursor: pointer;
+	
+	
+}
+
+.box{
+	margin: 20px;
+	width: 150px;
+	height: 110px;
+	background-color: white;
+	float: left;
+}
+
+p{
+	padding: 40px;
+	color: black;
+	font-weight: 700;
+}
+
+.box:hover{
+	background-color: yellow;
+}
+
+.box:checked{
+	background-color: #7F0709;;
+}
+
+.box2{
+	margin: 20px;
+	width: 150px;
+	height: 110px;
+	background-color:#7F0709;
+	float: left;
+}
+
+.inst{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 1%;
+	text-align: center;
+
+	
+}
+
+.box-inst1{
+	width: 150px;
+	height: 70px;
+	background-color:#7F0709;
+	margin: 10px;
+	padding-top: 50px;
+	
+}
+
+.box-inst2{
+	width: 150px;
+	height: 70px;
+	background-color:white;
+	margin: 20px 10px 10px 10px;
+	padding-top: 50px;
+	
+}
+
+h2{
+	padding-right: 50px;
+	padding-bottom: 40px;
+}
+
+p1{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
